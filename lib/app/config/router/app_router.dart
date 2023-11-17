@@ -10,6 +10,16 @@ final appRouter = GoRouter(
       path:'/home',
       name: 'home_view',
       builder: (context, state) => const HomeView(),
+    ),
+    GoRoute(
+      path:'/home',
+      name: 'primary_view',
+      builder: (context, state) => const PrimaryView(),
+    ),
+    GoRoute(
+      path:'/home',
+      name: 'secundary_view',
+      builder: (context, state) => const SecundaryView(),
     )
 
   ],
